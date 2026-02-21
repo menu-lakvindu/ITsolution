@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">IT Solutions Inc</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active font-monospace" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-monospace" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-monospace" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-monospace" href="resources.html">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-monospace" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<div class="container mt-5" style="max-width: 500px;">
+    <h2 class="mb-4 text-center">Contact Us</h2>
+    
+    <form>
+        <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Services Interested In</label>
+            <select class="form-select">
+                <option>IT Consulting</option>
+                <option>Data Science Research</option>
+                <option>Web Development</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Your Message</label>
+            <textarea class="form-control" rows="3"></textarea>
+        </div>
+
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="sub">
+            <label class="form-check-label" for="sub">Subscribe to our newsletter</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Send</button>
+    </form>
+
+    <div class="mt-4 text-start">
+       <a href="index.html" class="btn btn-outline-primary mt-3">Back to home</a>
+</div>
+
+</body>
+</html>
